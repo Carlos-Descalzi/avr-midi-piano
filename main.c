@@ -38,6 +38,7 @@ static void 		send_msg	(unsigned char data);
 
 #define	OFFSET	65
 
+// El teclado tiene un orden de las notas particular, asi que las mapeo a notas reales aca.
 static char notas[] = {
 	OFFSET + 6, 
 	OFFSET + 7, 
